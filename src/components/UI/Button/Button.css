@@ -1,0 +1,56 @@
+.Button {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Button.Success {
+    color: #5C9210;
+}
+
+.Button.danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.Button.danger:hover,
+.Button.danger:focus,
+.Button.danger:active{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #c12e2a;
+    outline: none;
+}
+
+.Button.primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    padding-left: 10px;
+    margin-left: 60%;
+    margin-right: 15px;
+}
+
+.Button.primary:hover,
+.Button.primary:focus,
+.Button.primary:active{
+    color: #fff;
+    background-color: #025aa5;
+    border-color: #01549b;
+outline: none;
+}
